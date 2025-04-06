@@ -242,7 +242,9 @@ function fightSnake(){
 }
 
 function fightStone(){
-  health-=0;
+  
+  health--;
+  healthText.innerText=health;
   text.innerText="-1 de vida, no seas burro como te vas a pelear con una piedra";
 }
 
